@@ -134,7 +134,7 @@ def resize_and_threshold_warped(image):
 def main():
 
     # initialize the camera and grab a reference to the raw camera capture
-    video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture(0)         # 0 for the inbuilt webcam 1 for the first USB cam and so on....
 
     #Windows to display frames
     cv2.namedWindow("Main Frame", cv2.WINDOW_AUTOSIZE)
