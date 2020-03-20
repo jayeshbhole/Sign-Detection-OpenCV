@@ -1,6 +1,7 @@
 # Sign-Detection-OpenCV-Python3
 Pre-requisites:
-    1. Python 3
+    
+    1. Python 3 
     2. OpenCV 4 (with contrib)
     3. Numpy
 
