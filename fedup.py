@@ -21,7 +21,7 @@ ReferenceTitles = ["_turnAround.png", "_park.png", "_left.png", "_right.png", "_
 def dist_dir(pts):
     rect = order_points(pts)
     markerSize = rect[1][0] - rect[0][0]
-    
+     
     if markerSize == 0:
         distance = 0
     else:
